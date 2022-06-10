@@ -4,16 +4,15 @@ import logo from '../src/Images/logo.png'
 const Header = () => {
     const menuItems = <>
         <li className=' font-semibold'><Link to="/">Home</Link></li>
-        <li className=' font-semibold'><Link to="/appointment">Services</Link></li>
-
+        <li className=' font-semibold'><Link to="/appointment">Projects</Link></li>
         <li className=' font-semibold'><Link to="/review">Blog</Link></li>
         <li className=' font-semibold'><Link to="/contact">Contact</Link></li>
         <li className=' font-semibold'><Link to="/about">About</Link></li>
 
     </>
     return (
-        <div className="navbar  bg-primary text-secondary  ">
-            <div className="navbar-start">
+        <div className="navbar fixed top-0 z-40 bg-primary text-secondary  ">
+            <div className="navbar-start ">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost text-accent lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>

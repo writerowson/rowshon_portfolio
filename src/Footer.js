@@ -5,7 +5,7 @@ import { BsYoutube } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div className=' bg-primary text-center text-secondary'>
+        <div className=' bg-primary text-center text-white'>
             {/* <footer className="footer p-10  text-accent text-center ">
                 <div className=''>
                     <span className="footer-title">Services</span>
@@ -35,26 +35,18 @@ const Footer = () => {
                 </div>
             </footer> */}
             <div className='  text-center  rounded  border-t'>
-                <p className='font-semibold'>Copyright © 2022 || All rights reserved.</p>
-                {/* <a className="link link-hover mx-3 text-xs">Terms of use</a>
-                <a className="link link-hover mx-3 text-xs">Privacy policy</a>
-                <a className="link link-hover mx-3 text-xs">Cookie policy</a> */}
-
-
-            </div>
-            <div className='footer footer-center '>
-                <div className=' grid-flow-col  mb-8 '>
-                    <GrTwitter ></GrTwitter>
-                    <BsYoutube></BsYoutube>
-                    <BsFacebook ></BsFacebook>
+                <div className='footer footer-center '>
+                    <div className=' grid-flow-col  mt-8 '>
+                        <GrTwitter ></GrTwitter>
+                        <BsYoutube></BsYoutube>
+                        <BsFacebook ></BsFacebook>
+                    </div>
                 </div>
+                <a className="link link-hover mx-3 text-xs">Terms of use</a>
+                <a className="link link-hover mx-3 text-xs">Privacy policy</a>
+                <a className="link link-hover mx-3 text-xs">Cookie policy</a>
+                <p className='font-semibold'>Copyright © 2022 <span className='text-secondary'>Rowshon Ara</span> All rights reserved.</p>
             </div>
-
-
-
-
-
-
         </div >
     );
 };
