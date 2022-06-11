@@ -1,7 +1,7 @@
 import React from 'react';
 import banner from '../Images/banner.png'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
+
 const Banner = () => {
     return (
 
@@ -16,7 +16,7 @@ const Banner = () => {
                     <p className='text-xl font-semibold'>Junior Front-End Developer </p>
                     <p className='mt-5'>I am a junior front end developer. There are thousands profession but I choose this to show my passion. What a amazing feeling when my projects will live decades to decades. I want to explore more in web development industry and set a goal to become a successful MERN full developer.</p>
                     <div className='  pt-10  '>
-                        <button className="btn btn-sm btn-outline btn-secondary animate-bounce w-40 h-6 mr-4 font-bold"> <a href='https://drive.google.com/drive/folders/1LzN3BOxaaFFdyzJaf66Dyh5BQwZDjJs_' target='_blank'>Resume</a> </button>
+                        <button className="btn btn-sm btn-outline btn-secondary animate-bounce w-40 h-6 mr-4 font-bold"> <a href="rowson_resume.pdf" download="rowson_resume.pdf" target='_blank'>Resume</a> </button>
                         <button className="btn btn-sm btn-outline btn-secondary animate-bounce w-40 h-6 font-bold"><a href='https://www.linkedin.com/in/rowshon-ara-530542191/' target='_blank'>Hire me</a>             <AiOutlineDoubleRight className='ml-1'></AiOutlineDoubleRight> </button>
                     </div>
                 </div>
