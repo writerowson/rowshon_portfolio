@@ -1,14 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// import { HashLink } from 'react-router-hash-link';
+
+
 import logo from '../src/Images/logo.png'
 const Header = () => {
     const menuItems = <>
-        <li className=' font-semibold'><Link to="/">Home</Link></li>
-        <li className=' font-semibold'><Link to="/appointment">Projects</Link></li>
-        <li className=' font-semibold'><Link to="/review">Blog</Link></li>
-        <li className=' font-semibold'><Link to="/contact">Contact</Link></li>
-        <li className=' font-semibold'><Link to="/about">About</Link></li>
+        {/* <li className=' font-semibold'><Link to="/">Home</Link></li>
+        <li className=' font-semibold'><a herf="#projects">Projects</a ></li>
+        <li className=' font-semibold'><Link to="/blog">Blog</Link></li>
+        <li className=' font-semibold'><a herf="#about">About</a></li>
+        <li className=' font-semibold'><a herf="#contact">Contact</a></li> */}
 
+        <li className="font-semibold"><Link to="/">Home</Link></li>
+        <li className="font-semibold"><a href="#projects">Projects</a></li>
+        <li className="font-semibold"><Link to="/blog">Blog</Link></li>
+        <li className="font-semibold"><a href="#about">About</a></li>
+        <li className="font-semibold"><a href="#contact">Contacts</a></li>
     </>
     return (
         <div className="navbar fixed top-0 z-40 bg-primary text-secondary  ">

@@ -42,7 +42,7 @@ const Project03 = () => {
 
                     <button className=" mr-2 mt-2 btn btn-sm border text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">reactJS </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">HTML5 </button>
-                    <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">cs3 </button>
+                    <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">css3 </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">bootstrap5 </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">react-router </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">react-icon </button>

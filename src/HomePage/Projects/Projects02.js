@@ -11,26 +11,26 @@ const Projects02 = () => {
     return (
         <div className=" hero my-28 ">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div class="carousel lg:w-2/3 sm:w-3/4">
-                    <div id="slide1" class="carousel-item relative w-full">
+                <div className="carousel lg:w-2/3 sm:w-3/4">
+                    <div id="slide1" className="carousel-item relative w-full">
                         <img src={ss01} alt="ss" className='border-4 border-green-500/100 rounded-b-lg' />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" className="btn btn-circle">❮</a>
+                            <a href="#slide2" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
+                    <div id="slide2" className="carousel-item relative w-full">
                         <img src={ss02} alt="ss" className='border-4 border-green-500/100 rounded-b-lg' />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" className="btn btn-circle">❮</a>
+                            <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
+                    <div id="slide3" className="carousel-item relative w-full">
                         <img src={ss03} alt="ss" className='border-4 border-green-500/100 rounded-b-lg' />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" className="btn btn-circle">❮</a>
+                            <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const Projects02 = () => {
 
                     <button className=" mr-2 mt-2 btn btn-sm border text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">reactJS </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">HTML5 </button>
-                    <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">cs3 </button>
+                    <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">css3 </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">bootstrap5 </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">react-router </button>
                     <button className=" mr-2 mt-2 btn btn-sm text-primary bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-violet-500 ...">mongo bd </button>

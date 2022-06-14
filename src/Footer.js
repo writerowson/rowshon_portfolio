@@ -5,7 +5,7 @@ import { BsYoutube } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div className=' bg-primary text-center text-white'>
+        <div className=' bg-primary text-center text-white '>
             {/* <footer className="footer p-10  text-accent text-center ">
                 <div className=''>
                     <span className="footer-title">Services</span>
@@ -34,9 +34,9 @@ const Footer = () => {
                     </div>
                 </div>
             </footer> */}
-            <div className='  text-center  rounded  border-t'>
+            <div className='  text-center  rounded  border-t py-16'>
                 <div className='footer footer-center '>
-                    <div className=' grid-flow-col  mt-8 '>
+                    <div className=' grid-flow-col  '>
                         <GrTwitter ></GrTwitter>
                         <BsYoutube></BsYoutube>
                         <BsFacebook ></BsFacebook>

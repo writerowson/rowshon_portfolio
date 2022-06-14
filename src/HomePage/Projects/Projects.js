@@ -5,7 +5,7 @@ import Project03 from './Projects03';
 
 const Projects = () => {
     return (
-        <div className=' my-12 '>
+        <div className=' my-12 ' id='projects'>
             <h1 className='text-4xl text-center font-semibold text-secondary  mt-20 mb-9 underline underline-offset-4'>My Recent Projects</h1>
             <Project01 ></Project01>
             <Projects02></Projects02>
